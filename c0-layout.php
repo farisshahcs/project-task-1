@@ -1,7 +1,7 @@
 
-<?php require_once 'header.php'; ?>
+<?php require_once 'a-header.php'; ?>
 
-<?php require_once 'sidebar.php'; ?>
+<?php require_once 'b-sidebar.php'; ?>
  
       <div class="col bg-light">
 
@@ -23,4 +23,4 @@
 
       </div>
 
-<?php require_once 'footer.php'; ?>
+<?php require_once 'z-footer.php'; ?>
