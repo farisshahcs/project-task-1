@@ -23,4 +23,4 @@
 
       </div>
 
-<?php require_once 'z-footer.php'; ?>
+<?php require_once 'd-footer.php'; ?>
