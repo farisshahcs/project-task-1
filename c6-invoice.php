@@ -152,7 +152,6 @@ ob_start();
 
     }
 
-    /* Force table header to print with black background and white text */
     .table-dark,
     .table-dark th {
         background-color: #212529 !important;

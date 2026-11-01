@@ -1,3 +1,7 @@
+<footer class="bg-secondary text-white text-center py-3 mt-auto">
+          <p class="mb-0">Contact us at <a href="mailto:faris.shah.cs@gmail.com" class="text-white text-decoration-underline">extase@gmail.com</a></p>
+        </footer>
+
     </div>
 
   </div>

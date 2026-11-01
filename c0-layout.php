@@ -1,13 +1,12 @@
-
 <?php require_once 'a-header.php'; ?>
 
 <?php require_once 'b-sidebar.php'; ?>
  
-      <div class="col bg-light">
+      <div class="col bg-black text-white min-vh-100 d-flex flex-column">
 
         <!-- Mobile Header with Burger -->
 
-        <div id="myBurger" class="p-3 d-lg-none text-white bg-dark">
+        <div id="myBurger" class="p-3 d-lg-none text-white bg-black border-bottom border-white">
 
           <div class="row">
             <a href="#" class="text-white text-decoration-none" data-bs-toggle="offcanvas" data-bs-target="#mySidebar">
@@ -17,10 +16,11 @@
 
         </div>
          
-        <div class="p-4">
+        <div class="p-4 flex-grow-1">
           <?= $content ?? '' ?>
         </div>
 
-      </div>
+        <?php require_once 'd-footer.php'; ?>
 
-<?php require_once 'd-footer.php'; ?>
+      </div>
+      
